@@ -6,7 +6,7 @@ use rand::Rng;
 trait Animal {
 
     fn introduce(&self) {
-        println!("Type {} is named {} with weight and age: {} and {} respectively", &self.type_of(), *self.name(), self.weight(), self.age());
+        println!("Type {} is named {} with weight and age: {} and {}, respectively", &self.type_of(), *self.name(), self.weight(), self.age());
     }
 
     fn name(&self) -> &String;
