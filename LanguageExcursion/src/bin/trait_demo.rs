@@ -6,7 +6,7 @@ use rand::Rng;
 trait Animal {
 
     fn introduce(&self) {
-        println!("Type {} is named {} with weight and age: {} and {}, respectively", &self.type_of(), *self.name(), self.weight(), self.age());
+        println!("Type {} is named {} with weight and age: {} and {}, respectively", self.type_of(), *self.name(), self.weight(), self.age());
     }
 
     fn name(&self) -> &String;
@@ -27,7 +27,7 @@ struct Chicken {
 
 impl Chicken{
     fn eat(&mut self, weight: i32) {
-            self.weight += (weight - 50);
+            self.weight += weight - 50;
     }
     fn new(name: String, age: u8, weight: i32) -> Chicken {
         Chicken {name: name, age: age, weight:weight}
@@ -121,7 +121,7 @@ fn main() {
         // ant_hill.push(Ant {name:name, role:role, weight:random, age:0});
     }
 
-    for i in 0..3 {
+    for _i in 0..3 {
         let ant : Ant = ant_hill.pop().unwrap();
         ant.introduce();
         flock[0].introduce();
