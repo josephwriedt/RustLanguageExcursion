@@ -1,0 +1,1 @@
+C:\Users\jojow\OneDrive\Documents\GitHub\RustLanguageExcursion\LanguageExcursion\target\debug\LanguageExcursion.exe: C:\Users\jojow\OneDrive\Documents\GitHub\RustLanguageExcursion\LanguageExcursion\src\main.rs

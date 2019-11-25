@@ -1,0 +1,1 @@
+C:\Users\jojow\OneDrive\Documents\GitHub\RustLanguageExcursion\LanguageExcursion\target\debug\trait_demo.exe: C:\Users\jojow\OneDrive\Documents\GitHub\RustLanguageExcursion\LanguageExcursion\src\bin\trait_demo.rs

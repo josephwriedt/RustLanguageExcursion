@@ -1,0 +1,1 @@
+C:\Users\jojow\OneDrive\Documents\GitHub\RustLanguageExcursion\LanguageExcursion\target\debug\DataTypes.exe: C:\Users\jojow\OneDrive\Documents\GitHub\RustLanguageExcursion\LanguageExcursion\src\bin\DataTypes.rs
